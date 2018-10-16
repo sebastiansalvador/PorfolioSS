@@ -27,5 +27,30 @@ nav a {
     border-left: 1px solid gray;
 }
 nav a: first-child{
+    displaly: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: gray;
+    text-decoration :  none;
     border-left: 0 none;
+}
+#main-container {
+    padding-top: 130px;
+}
+.main-section{
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.auth-image{
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25 px;
 }
