@@ -54,3 +54,24 @@ nav a: first-child{
     margin-top: 10px;
     margin-right: 25 px;
 }
+.sidebar {
+    float: right;
+    width: 100%;
+    max-width: 270px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: yellow;
+    border: 1px solid black;
+}
+h3, .sidebar h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid black;
+}
+.social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
